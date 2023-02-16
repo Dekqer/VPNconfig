@@ -14,30 +14,38 @@ This tutorial outlines the implementation of a VPN within an Azure Virtual Machi
 <h2>Operating Systems Used </h2>
 
 - Windows Server 2022
-- Windows 10 (21H2)
+- Windows 10 (Windows 10 Pro)
 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://imgur.com/a/0B93i8v" height="80%" width="80%" alt="VPN Steps"/>
+<img src="https://i.imgur.com/0dXOJCZ.png" height="80%" width="80%" alt="VPN Steps"/>
 </p>
 <p>
-Step 1: On your acutal PC, browse to https://whatismyipaddress.com/ and take note of this in a text file, I use NotePad for example.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 1: On your acutal PC, browse to https://whatismyipaddress.com/ and take note of this in a text file, I use NotePad for example. In this scenario you can see my actual location (Manitowoc, WI) and my IP address is 73.37.187.30.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HtSmyCG.png" height="80%" width="80%" alt="VPN Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 2: In our active Azure subscription, we are going to create a Virtual Machine using Windows 10 (Windows 10 Pro). For this scenario we want to use a different geographic location. You can see in the picture above I am using East Asia.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Pdp3p7V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 3: Next we are going to remote desktop to our Virtual Machine using the highlighted Public IP address above, you can see it is 104.208.116.174. Again we are going to head over to https://whatismyipaddress.com/ and take note of this in a text file.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Pdp3p7V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 4: On your local computer, open your browser and signup for the free version of ProtonVPN. https://account.protonvpn.com/signup?plan=free&language=en
 </p>
 <br />
