@@ -3,14 +3,14 @@
 </p>
 
 <h1>Setting up a VPN inside of a Azure Virual Machine</h1>
-This tutorial outlines the implementation of a VPN within an Azure Virtual Machine.<br />
+This tutorial outlines the implementation of a VPN within an Azure Virtual Machine. We are essentially going to test our IP address in 3 different locations and see exactly how this can be implemented in you everyday life.<br />
 
-<h2>What is a VPN?</h2>
+<h2>First, What exactly is a VPN?</h2>
 <p>
 <img src="https://i.imgur.com/2FQjYiP.png" height="80%" width="80%" alt="VPN Steps"/>
 </p>
 <p>
-In the diagram above, you can see a very clear picture of how a VPN works. Simply put, a VPN or Virtual Private Network is a secure direct tunnel between a computing device and a computer network.
+ Simply put, a VPN or Virtual Private Network is a secure direct tunnel between a computing device and a computer network. In the diagram above, you can see a very clear picture of how a VPN works.
 </p>
 <br />
 
